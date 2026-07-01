@@ -12,3 +12,7 @@ variable "instance_type" {
       error_message = "instance_type must be one of: t3.micro, t3.small, t3.medium."
     }
  }
+
+ variable "bucket_name" {
+  type = string
+}
